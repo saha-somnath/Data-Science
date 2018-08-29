@@ -99,7 +99,7 @@ class KMeans:
 
         for P in self.points:
             #cluster_points = [[]]
-            min_eucledian_distance   = sys.maxint
+            min_eucledian_distance   = sys.maxsize
             centroid_index  = 0
             for cen in self.centroids:
                 #p_coordinates = P.getCoordinates()
